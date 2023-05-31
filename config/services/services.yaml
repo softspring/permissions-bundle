@@ -1,0 +1,9 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+
+    sfs_permissions.role_hierarchy.permission:
+        class: Symfony\Component\Security\Core\Authorization\Voter\RoleHierarchyVoter
+        arguments:
+            $prefix: 'PERMISSION_'
