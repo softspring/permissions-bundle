@@ -1,13 +1,14 @@
-# Permissions Bundle
+# Permissions Component
 
-![Latest Stable](https://img.shields.io/packagist/v/softspring/permissions-bundle?label=stable&style=flat-square)
-![Latest Unstable](https://img.shields.io/packagist/v/softspring/permissions-bundle?label=unstable&style=flat-square&include_prereleases)
-![License](https://img.shields.io/packagist/l/softspring/permissions-bundle?style=flat-square)
-![PHP Version](https://img.shields.io/packagist/dependency-v/softspring/permissions-bundle/php?style=flat-square)
-![Downloads](https://img.shields.io/packagist/dt/softspring/permissions-bundle?style=flat-square)
+[![Latest Stable](https://img.shields.io/packagist/v/softspring/permissions-bundle?label=stable&style=flat-square)](https://github.com/softspring/permissions-bundle/releases)
+[![Latest Unstable](https://img.shields.io/packagist/v/softspring/permissions-bundle?label=unstable&style=flat-square&include_prereleases)](https://github.com/softspring/permissions-bundle/releases)
+[![License](https://img.shields.io/packagist/l/softspring/permissions-bundle?style=flat-square)](https://github.com/softspring/permissions-bundle/blob/6.0/LICENSE)
+[![PHP Version](https://img.shields.io/packagist/dependency-v/softspring/permissions-bundle/php?style=flat-square)](https://github.com/softspring/permissions-bundle/blob/6.0/composer.json)
+[![Downloads](https://img.shields.io/packagist/dt/softspring/permissions-bundle?style=flat-square)](https://packagist.org/packages/softspring/permissions-bundle)
 [![CI](https://img.shields.io/github/actions/workflow/status/softspring/permissions-bundle/ci.yml?branch=6.0&style=flat-square&label=CI)](https://github.com/softspring/permissions-bundle/actions/workflows/ci.yml)
+[![Coverage](https://img.shields.io/codecov/c/github/softspring/permissions-bundle?branch=6.0&style=flat-square)](https://codecov.io/gh/softspring/permissions-bundle)
 
-Enable `PERMISSION_*` security attributes through Symfony role hierarchy.
+Enable `PERMISSION_*` security attributes through Symfony Security role hierarchy.
 
 ## Armonic
 
@@ -15,19 +16,17 @@ This package is part of [Armonic](https://softspring.es/en/armonic).
 
 ## Documentation
 
-[Armonic Documentation](https://armonic.softspring.es/latest/bundles/permissions-bundle)
+[Armonic Documentation](https://armonic.softspring.es/latest/components/permissions-bundle)
 
 ## Contributing
 
-Use the standard package commands before sending changes:
-
-```bash
-composer fix
-composer test
-composer test-bc
-```
+See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 [Report issues](https://github.com/softspring/permissions-bundle/issues) and [send Pull Requests](https://github.com/softspring/permissions-bundle/pulls)
+
+## Security
+
+See [SECURITY.md](SECURITY.md).
 
 ## License
 
