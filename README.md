@@ -6,7 +6,7 @@
 [![PHP Version](https://img.shields.io/packagist/dependency-v/softspring/permissions-bundle/php?style=flat-square)](https://github.com/softspring/permissions-bundle/blob/6.0/composer.json)
 [![Downloads](https://img.shields.io/packagist/dt/softspring/permissions-bundle?style=flat-square)](https://packagist.org/packages/softspring/permissions-bundle)
 [![CI](https://img.shields.io/github/actions/workflow/status/softspring/permissions-bundle/ci.yml?branch=6.0&style=flat-square&label=CI)](https://github.com/softspring/permissions-bundle/actions/workflows/ci.yml)
-[![Coverage](https://img.shields.io/codecov/c/github/softspring/permissions-bundle?branch=6.0&style=flat-square)](https://codecov.io/gh/softspring/permissions-bundle)
+[![Coverage](https://img.shields.io/codecov/c/github/softspring/permissions-bundle?branch=6.0&style=flat-square)](https://app.codecov.io/gh/softspring/permissions-bundle/tree/6.0)
 
 Enable `PERMISSION_*` security attributes through Symfony Security role hierarchy.
 
